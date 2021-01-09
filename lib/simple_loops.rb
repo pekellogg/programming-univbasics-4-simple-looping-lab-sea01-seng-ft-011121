@@ -70,7 +70,7 @@ end
 def return_string_array(array)
   new_array = []
   for i in array do
-    i.to_s
+    array[i] = array[i].to_s
     binding.pry
     new_array << i
   end
