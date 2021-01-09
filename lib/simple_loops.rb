@@ -32,16 +32,16 @@
 # output_array(array)
 #
 # # This method should return an array and loop over the provided array, convert each element to a string, and return the new array of strings
-# array = ["I am very excited", "about loops in general","right about now"]
-# def return_string_array(array)
-#   count = 0
-#     while count < array.length
-#       array[count] = array[count].to_s
-#       count += 1
-#     end
-#     array
-# end
-# return_string_array(array)
+array = ["I am very excited", "about loops in general","right about now"]
+def return_string_array(array)
+  count = 0
+    while count < array.length
+      array[count] = array[count].to_s
+      count += 1
+    end
+    array
+end
+return_string_array(array)
 
 # require 'pry'
 
@@ -67,12 +67,12 @@ def output_array(array)
  end
 end
 
-def return_string_array(array)
-  new_array = []
-  for i in array do
-    variable = array[i].to_s
-    # binding.pry
-    new_array << variable
-  end
-  p new_array
-end
+# def return_string_array(array)
+#   new_array = []
+#   for i in array do
+#     variable = array[i].to_s
+#     # binding.pry
+#     new_array << variable
+#   end
+#   p new_array
+# end
