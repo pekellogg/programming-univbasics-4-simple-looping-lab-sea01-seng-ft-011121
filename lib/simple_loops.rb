@@ -41,7 +41,7 @@ def return_string_array(array)
     end
     array
 end
-return_string_array(array)
+p return_string_array(array)
 
 # require 'pry'
 
