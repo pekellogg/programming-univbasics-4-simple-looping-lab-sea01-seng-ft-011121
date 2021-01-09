@@ -55,7 +55,7 @@ end
 def loop_message_n_times(string, integer)
   counter = 0
   while counter <= integer
-    p string
+    puts string
     counter += 1
   end
 end
