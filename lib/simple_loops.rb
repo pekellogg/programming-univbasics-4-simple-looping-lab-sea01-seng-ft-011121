@@ -43,7 +43,7 @@
 # end
 # return_string_array(array)
 
-require 'pry'
+# require 'pry'
 
 def loop_message_five_times(string)
   counter = 0
@@ -71,7 +71,7 @@ def return_string_array(array)
   new_array = []
   for i in array do
     array[i] = array[i].to_s
-    binding.pry
+    # binding.pry
     new_array << i
   end
   p new_array
